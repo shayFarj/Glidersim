@@ -5,9 +5,9 @@
 class RigidBody abstract
 {
 public:
-	RigidBody();
+	RigidBody(double inertia, double mass);
 	~RigidBody();
-	std::vector<Frame> createFrames(const int cFrames, const int fps);
+	virtual std::vector<Frame> createFrames(const Frame& initFrame, const int cFrames, const int fps);
 
 private:
 	double inertia;
