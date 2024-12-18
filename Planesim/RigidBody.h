@@ -12,15 +12,6 @@ public:
 private:
 	double inertia;
 	double mass;
-	
-
-	Vector2 pos;
-	Vector2 vel;
-	Vector2 acc;
-
-	double pitch;
-
-
 
 };
 
