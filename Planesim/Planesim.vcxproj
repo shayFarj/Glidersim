@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ForceApplier.cpp" />
+    <ClCompile Include="Gravity.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RigidBody.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ForceApplier.h" />
+    <ClInclude Include="Gravity.h" />
     <ClInclude Include="physStructs.h" />
     <ClInclude Include="RigidBody.h" />
   </ItemGroup>
