@@ -127,16 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DragFactor.cpp" />
+    <ClCompile Include="Factor.cpp" />
     <ClCompile Include="ForceApplier.cpp" />
     <ClCompile Include="Gravity.cpp" />
+    <ClCompile Include="LiftFactor.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RigidBody.cpp" />
+    <ClCompile Include="Wing.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DragFactor.h" />
+    <ClInclude Include="Factor.h" />
     <ClInclude Include="ForceApplier.h" />
     <ClInclude Include="Gravity.h" />
+    <ClInclude Include="LiftFactor.h" />
+    <ClInclude Include="physConstants.h" />
     <ClInclude Include="physStructs.h" />
     <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="Wing.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Planesim.rc" />

@@ -2,6 +2,6 @@
 #include "Factor.h"
 class LiftFactor :public Factor
 {
-
+	LiftFactor()
 };
 
